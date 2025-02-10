@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Maison des Ligues</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Maison des Ligues</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ligue.html">Ligues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prestation.html">Prestations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image vitrine avec message de bienvenue -->
+    <header class="py-5 text-center text-white" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;">
+        <div class="container py-5">
+            <h1 class="display-4 fw-bold">Bienvenue sur la Maison des Ligues</h1>
+        </div>
+    </header>
+
+    <!-- Les formulaires -->
+    <main class="container py-5">
+        <div class="row g-4">
+            <!-- Formulaire Ligues -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="card-title mb-3">Formulaire des Ligues</h3>
+                        <a href="ligue.html" class="btn btn-primary">Ajouter une ligue</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulaire Prestations -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="card-title mb-3">Formulaire des Prestations</h3>
+                        <a href="prestation.html" class="btn btn-primary">Ajouter une prestation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
